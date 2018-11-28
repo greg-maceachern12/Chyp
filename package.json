@@ -1,0 +1,37 @@
+{
+  "name": "Chyp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "create-react-app": "^1.5.2",
+    "fb": "^2.0.0",
+    "fb-react-sdk": "^1.0.4",
+    "firebase": "^4.9.1",
+    "jquery": "^3.3.1",
+    "moment": "^2.21.0",
+    "passport-facebook": "^2.1.1",
+    "query-string": "^5.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-facebook-auth": "^1.1.0",
+    "react-facebook-login": "^3.6.2",
+    "react-google-maps": "^9.4.5",
+    "react-router-dom": "^4.2.2",
+    "react-stripe-elements": "^1.6.0",
+    "reactstrap": "^5.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "react-scripts": "^1.1.0"
+  },
+  "scripts": {
+    "start": "serve -s build",
+    "prestart": "npm install -g serve",
+    "local": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

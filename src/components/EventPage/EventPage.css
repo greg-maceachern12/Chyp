@@ -1,0 +1,152 @@
+#event-page {
+  max-width: 1200px !important;
+}
+
+#event-page .row:not(:first-child) {
+  margin-top: 1em;
+}
+
+#event-page #cover-image {
+  padding: 0;
+}
+
+#event-page #cover-image img {
+  width: 100%;
+  max-width: 1200px;
+  max-height: 500px;
+  height: auto;
+}
+
+#title-row h3 {
+  text-align: left;
+  font-weight: bold;
+}
+
+#title-row h3 span {
+  font-weight: normal;
+  margin-left: 1em;
+  color: grey;
+}
+
+.event-page-header {
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+}
+
+.ticket-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.ticket-col button {
+  flex-grow: 1;
+}
+
+.ticket-col p {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  color: grey;
+  font-size: 0.8em;
+  position: absolute;
+  top: 70%;
+}
+
+@media (max-width: 768px) {
+  #title-row h3 span {
+    display: block;
+    margin-left: 0;
+  }
+  #location-header {
+    margin-top: 1em;
+  }
+  .ticket-col button {
+    margin-top: 0.5em;
+  }
+  .ticket-col p {
+    position: static;
+  }
+  #map {
+    padding: 0;
+  }
+}
+
+#tickets {
+  width: 300px;
+  background-color: #00cc89;
+  border-radius: 10px;
+  font-size: 20px;
+  display: flex;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 100px;
+}
+
+#ticket-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ticket-form .StripeElement {
+  width: 100%;
+}
+
+.form-divider {
+  height: 1px;
+  width: 100%;
+  background-color: grey;
+  margin: 1em 0;
+}
+
+#ticket-form button {
+  width: 100%;
+  margin-top: 1em;
+  background-color: #00CC89;
+  border-color: white;
+}
+
+#checkout-modal h6 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#purchaser-container #purchaser {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+
+#purchaser-container #login-btn {
+  width: 100%;
+}
+
+#purchaser-container p {
+  margin: 0;
+}
+
+#purchaser-container img {
+  height: 4em;
+  width: 4em;
+  border-radius: 2em;
+}
+
+#checkout-cart div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#checkout-cart p {
+  margin: 0;
+}
+
+#checkout-cart #total-row p {
+  font-weight: bold;
+}

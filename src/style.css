@@ -1,0 +1,455 @@
+@import url("https://fonts.googleapis.com/css?family=Hind");
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  /*overflow : hidden;*/
+}
+
+.intro {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background: url(https://png.pngtree.com/thumb_back/fh260/back_pic/03/76/70/5157beeff278f43.jpg) no-repeat 50% 50%;
+  display: table;
+  top: 0;
+  background-position: top center;
+  background-size: cover;
+}
+
+.screenshots {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  /*background: url(http://images.dailyhive.com/20170428120718/Outdoors.jpg) no-repeat 50% 50%;*/
+  position: absolute;
+  display: table;
+  background-size: cover;
+}
+
+.intro .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+  height: inherit;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 30%;
+}
+
+.content h1 {
+  font-family: "Hind", sans-serif;
+  font-size: 600%;
+  font-weight: 400;
+  color: rgba(54, 60, 82, 1);
+  line-height: 100%;
+  position: relative;
+  top: 50px;
+}
+
+.content h2 {
+  font-family: "Hind", sans-serif;
+  font-size: 200%;
+  font-weight: lighter;
+  color: rgba(54, 60, 82, 1);
+  /*line-height: 90%;*/
+  position: relative;
+  top: 10px;
+}
+
+.content h3 {
+  font-family: "Hind", sans-serif;
+  font-size: 200%;
+  font-weight: 500;
+  color: rgba(54, 60, 82, 1);
+  /*line-height: 90%;*/
+  position: relative;
+  top: 10px;
+  left: auto;
+}
+
+.content form {
+  position: relative;
+}
+
+.cf:before, .cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+.fb-login-button {
+  position: relative;
+  top: -5px;
+}
+
+/* Form wrapper styling */
+
+/*.form-wrapper {
+    width: 450px;
+    padding: 15px;
+    margin: 150px auto 50px auto;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}*/
+
+/* Form text input */
+
+/*.form-wrapper input {
+    width: 330px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;
+    font: bold 15px "Hind", sans-serif;
+    border: 0;
+    background: #eee;
+    border-radius: 3px 0 0 3px;
+}
+
+.form-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+
+.form-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+
+.form-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.form-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Form submit button */
+
+/*.form-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: normal 15px/40px "Hind", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    background: rgba(0, 204, 137, 1);
+    border-radius: 0 3px 3px 0;
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}*/
+
+.form-wrapper button:hover {
+  background: rgba(0, 150, 110, 1);
+}
+
+.form-wrapper button:active, .form-wrapper button:focus {
+  background: rgba(0, 130, 110, 1);
+  outline: 0;
+}
+
+*/ .form-wrapper button:before {
+  /* left arrow */
+  content: "";
+  position: absolute;
+  border-width: 8px 8px 8px 0;
+  border-style: solid solid solid none;
+  border-color: transparent rgba(0, 204, 137, 1) transparent;
+  left: -6px;
+  top: 10px
+}
+
+.form-wrapper button:hover:before {
+  border-right-color: rgba(0, 150, 110, 1);
+}
+
+.form-wrapper button:focus:before, .form-wrapper button:active:before {
+  border-right-color: rgba(0, 130, 110, 1);
+}
+
+.form-wrapper button::-moz-focus-inner {
+  /* remove extra button spacing for Mozilla Firefox */
+  border: 0;
+  padding: 0;
+}
+
+.form-wrapper {
+  position: relative;
+  top: -95px;
+}
+
+p {
+  font-size: 150%;
+  line-height: 150%;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/*.nav a:link,a:visited, button:hover, button:active{
+	display: block;
+	font-weight: bold;
+	color:#FFFFFF;
+	width: 150px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: "Hind", sans-serif;
+	font-size: 120%;
+	font-weight: 100;
+	height: 60px;
+	color:  #e2edff;
+	transition: all 0.5s;
+	border: none;
+}*/
+
+.nav a:hover, a:active, button:hover, button:active {
+  background-color: #00CC89;
+}
+
+.nav button:hover, button:active {
+  top: 0px;
+  background-color: #00CC89;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  transition: all 0.1s;
+}
+
+nav ul {
+  float: right;
+  margin-right: 30px;
+}
+
+nav {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(54, 60, 82, 1);
+  /*line-height: 70px;*/
+}
+
+.nav button {
+  position: relative;
+  top: 0px;
+  display: block;
+  font-weight: bold;
+  color: #FFFFFF;
+  width: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  text-decoration: none;
+  font-family: "Hind", sans-serif;
+  font-size: 120%;
+  font-weight: 100;
+  height: 60px;
+  color: #e2edff;
+  background-color: rgba(54, 60, 82, 0);
+  border: none;
+  border-color: rgba(54, 60, 82, 0);
+  cursor: pointer;
+}
+
+.demoPhone {
+  position: relative;
+  top: 200px;
+  left: 200px;
+}
+
+/*--- Media Queries --*/
+
+@media screen and (max-width: 900px) {
+  .content {
+    padding-bottom: 30%;
+  }
+  .content h1 {
+    font-size: 450%;
+    top: 30px;
+  }
+  .content h2 {
+    font-size: 150%;
+    top: 30px;
+  }
+  .content h3 {
+    font-size: 150%;
+    top: 100px;
+  }
+  .fb-login-button {
+    top: 80px;
+  }
+  .form-wrapper input, button {
+    position: relative;
+    width: 300px;
+  }
+  .form-wrapper {
+    top: -40px;
+  }
+  .btn {
+    font-size: 130%;
+    padding: 9px 17px;
+  }
+  .nav button {
+    width: 85px;
+    font-size: 110%;
+    font-weight: 100;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding-bottom: 40%;
+  }
+  .content h1 {
+    font-size: 350%;
+    top: 50px;
+  }
+  .content h2 {
+    font-size: 150%;
+    top: 40px;
+  }
+  .content h3 {
+    position: relative;
+    font-size: 150% top: 300px;
+  }
+  .btn {
+    font-size: 16=0%;
+    padding: 7px 15px;
+  }
+  p {
+    font-size: 120%;
+    line-height: 100%
+  }
+  .nav button {
+    width: 60px;
+    font-size: 90%;
+    font-weight: 100;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    padding-bottom: 100%;
+  }
+  .content h1 {
+    font-size: 300%;
+    top: 90px;
+  }
+  .content h2 {
+    font-size: 130%;
+    top: 130px;
+  }
+  .content h3 {
+    font-size: 140%;
+    top: 190px;
+  }
+  .form-wrapper {
+    /*top: 250px;*/
+    width: 400px;
+    top: 50px;
+  }
+  .form-wrapper input {
+    width: 260px;
+  }
+  .fb-login-button {
+    top: 170px;
+  }
+  .btn {
+    font-size: 110%;
+    padding: 6px 14px;
+  }
+  p {
+    font-size: 100%;
+    line-height: 100%
+  }
+  .nav button {
+    width: 55px;
+    font-size: 67%;
+    font-weight: 100;
+  }
+  nav img {
+    height: 60px;
+    width: 110px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content {
+    padding-bottom: 100%;
+  }
+  .content h1 {
+    font-size: 300%;
+    top: 90px;
+  }
+  .content h2 {
+    font-size: 120%;
+    top: 110px;
+    text-align: center;
+  }
+  .content h3 {
+    font-size: 140%;
+    top: 210px;
+  }
+  .form-wrapper {
+    /*top: 250px;*/
+    width: 340px;
+    top: 80px;
+  }
+  .form-wrapper input {
+    width: 220px;
+  }
+  .btn {
+    font-size: 110%;
+    padding: 6px 14px;
+  }
+  p {
+    font-size: 100%;
+    line-height: 100%
+  }
+  .nav button {
+    width: 55px;
+    font-size: 70%;
+    font-weight: 90;
+    /*display: none;*/
+  }
+  nav img {
+    width: 110px;
+    height: 60px;
+  }
+  .fb-login-button {
+    top: 190px;
+  }
+}

@@ -1,0 +1,41 @@
+ .main h2, .main h3, .main img {
+   color: rgba(54, 60, 82, 1);
+ }
+
+ .main h1 {
+   text-align: center;
+   color: rgba(54, 60, 82, 1);
+   font-size: 50px;
+   margin-bottom: 20px;
+ }
+
+ .main h2 {
+   font-size: 25px;
+ }
+
+ .main h3 {
+   font-size: 20px;
+ }
+
+ .main p {
+   margin-top: 60px;
+   font-size: 1.5em;
+   text-align: center;
+ }
+
+ .main {
+   max-width: 100vw !important;
+ }
+
+.main img {
+   padding-bottom: 20px;
+ }
+
+ .main address {
+   font-size: 16px;
+   bottom: 0;
+ }
+
+body{
+    overflow-x:hidden;
+}

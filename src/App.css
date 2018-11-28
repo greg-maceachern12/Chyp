@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Hind");
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: calc(100% - 86px);
+  width: 100%;
+}
+
+#root { height: 100%; width: 100%; }
+#App-container { height: 100%; width: 100%;}
+
+button {
+  padding: 15px 25px;
+  background-color: #4266B2;
+  font-size: 1em;
+  font: lucida;
+  color: white;
+  cursor: pointer;
+  top: 100px;
+}
+
+.content {
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+
+.content h1 {
+  font-family: "Hind", sans-serif;
+  font-size: 600%;
+  font-weight: 400;
+  color: rgba(54, 60, 82, 1);
+  line-height: 100%;
+  text-overflow: inherit;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.content h2 {
+  font-family: "Hind", sans-serif;
+  font-size: 200%;
+  font-weight: lighter;
+  color: rgba(54, 60, 82, 1);
+  margin-top: 40px;
+}
+
+.content h3 {
+  font-family: "Hind", sans-serif;
+  font-size: 2.3em;
+  font-weight: 500;
+  color: rgba(54, 60, 82, 1);
+  margin-top: 130px;
+}
+
+@media screen and (max-width: 900px) {
+  .content h1 {
+    font-size: 4rem;
+    top: 80px;
+  }
+  .content h2 {
+    font-size: 150%;
+    top: 80px;
+  }
+  .content h3 {
+    font-size: 150%;
+    top: 80px;
+  }
+  .content #btnLogin {
+    font-size: 1.3rem;
+    top: 80px;
+  }
+  button {
+    font-size: 1.0em;
+    top: 280px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .content h1 {
+    font-size: 4rem;
+    top: 80px;
+  }
+  .content h2 {
+    font-size: 150%;
+    top: 80px;
+  }
+  .content h3 {
+    top: 80px;
+  }
+  .content #btnLogin {
+    font-size: 1.3rem;
+    top: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .content h1 {
+    font-size: 3em;
+    top: 80px;
+  }
+  .content h2 {
+    font-size: 150%;
+    top: 80px;
+  }
+  .content h3 {
+    font-size: 150%;
+    top: 80px;
+  }
+  .content #btnLogin {
+    font-size: 1.3rem;
+    top: 80px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+  .content h1 {
+    font-size: 2.8em;
+    top: 90px;
+  }
+  .content h2 {
+    font-size: 1.4rem;
+    top: 110px;
+    text-align: center;
+  }
+  .content h3 {
+    font-size: 1.3rem;
+    top: 120px;
+  }
+  .content #btnLogin {
+    font-size: 1.3rem;
+    top: 110px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+
+  .content h1 {
+    font-size: 2.5em;
+    top: 90px;
+  }
+  .content h2 {
+    font-size: 1.3rem;
+    top: 110px;
+    text-align: center;
+  }
+  .content h3 {
+    font-size: 1.3rem;
+    top: 130px;
+  }
+  .content #btnLogin {
+    font-size: 1.3rem;
+    top: 120px;
+  }
+}

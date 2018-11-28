@@ -1,0 +1,30 @@
+<<<<<<< HEAD
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# credentials
+/src/fire.js
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+=======
+node_modules
+.DS_Store
+client/dist
+>>>>>>> 384e6d7627c0497ab60c9deaeb6f9e10e0e7453b
