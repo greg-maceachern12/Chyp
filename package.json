@@ -2,6 +2,7 @@
   "name": "Chyp",
   "version": "0.1.0",
   "private": true,
+  "homepage" : "http://greg-maceachern12.github.io/chyp",
   "dependencies": {
     "axios": "^0.17.1",
     "body-parser": "^1.18.2",
